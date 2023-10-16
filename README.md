@@ -1,5 +1,8 @@
 # Weather Analysis Toolkit (v0.1.0)
 
+[![Version](https://img.shields.io/badge/version-0.1.0-blue.svg)](https://github.com/carecodeconnect/weather.git)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 This suite of scripts forms a toolkit for fetching, analyzing, and generating reports on weather data.
 
 It assesses forecast accuracy over time and understanding weekly weather statistics.
@@ -64,3 +67,8 @@ To generate a report on weekly weather statistics, execute the following script:
 ## Acknowledgments
 
 - Hat tip to the developers of the IBM Linux Command Line and Shell Scripting course on EdX.org for the original code
+
+## License
+
+This project is licensed under the terms of the MIT license. See the [LICENSE.md](LICENSE.md) file for details.
+
