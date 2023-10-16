@@ -9,6 +9,18 @@ It assesses forecast accuracy over time and understanding weekly weather statist
 
 This version of the toolkit reports today's weather and the forecast weather for tomorrow at noon in Berlin.
 
+## Overview
+
+The Weather Analysis Toolkit creates an ETL (Extract, Transform, Load) pipeline for enhanced forecasting accuracy.
+
+The scripts **extract** temperature data from the `wttr.in` API for Berlin.
+
+![Weather Output](./images/wttr-Berlin.png)
+
+The scripts **transform** the data by filtering out extraneous information irrelevant to forecasting objectives.
+
+The scripts **load** the data into reports which can inform decision-making.
+
 ## Scripts
 
 1. `fetch_weather_data.sh`: This script is responsible for retrieving the latest weather data from `wttr.in`.
